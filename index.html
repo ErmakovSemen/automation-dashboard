@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Automation Dashboard</title>
+    <link rel="stylesheet" href="assets/styles.css" />
+  </head>
+  <body>
+    <header class="page-header">
+      <div>
+        <h1>Automation Dashboard</h1>
+        <p>Quick access to automations and project links.</p>
+      </div>
+      <div class="meta">
+        <span id="last-updated">Updated just now</span>
+      </div>
+    </header>
+
+    <main>
+      <section>
+        <div class="section-header">
+          <h2>Automations</h2>
+        </div>
+        <div id="automation-grid" class="card-grid"></div>
+      </section>
+
+      <section>
+        <div class="section-header">
+          <h2>Projects</h2>
+        </div>
+        <div id="projects-grid" class="card-grid"></div>
+      </section>
+
+      <section>
+        <div class="section-header">
+          <h2>Quick Links</h2>
+        </div>
+        <div id="links-grid" class="card-grid"></div>
+      </section>
+    </main>
+
+    <footer>
+      <span>Local dashboard • edit <code>data.json</code> to add items</span>
+    </footer>
+
+    <script src="assets/app.js"></script>
+  </body>
+</html>

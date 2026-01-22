@@ -1,0 +1,69 @@
+{
+  "updated": "just now",
+  "automations": [
+    {
+      "title": "Yandex Calendar → Obsidian",
+      "description": "Syncs Yandex Calendar iCal into a single Calendar.md file in your Obsidian vault.",
+      "tags": ["calendar", "obsidian"],
+      "actions": [
+        {
+          "label": "Run",
+          "href": "run/ycal_to_obsidian.command",
+          "variant": "primary",
+          "target": "_self"
+        }
+      ]
+    },
+    {
+      "title": "Telegram → Notion",
+      "description": "Incremental ingest of new Telegram messages into Notion.",
+      "tags": ["telegram", "notion"],
+      "actions": [
+        {
+          "label": "Run",
+          "href": "run/tg_ingest_all.command",
+          "variant": "primary",
+          "target": "_self"
+        }
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "title": "auto-notion",
+      "description": "Automation scripts and prototypes.",
+      "actions": [
+        {
+          "label": "GitHub",
+          "href": "https://github.com/ErmakovSemen/auto-notion",
+          "variant": "secondary"
+        }
+      ]
+    },
+    {
+      "title": "automation-dashboard",
+      "description": "Local landing page for automations and projects.",
+      "actions": [
+        {
+          "label": "GitHub",
+          "href": "https://github.com/ErmakovSemen/automation-dashboard",
+          "variant": "secondary"
+        }
+      ]
+    }
+  ],
+  "links": [
+    {
+      "title": "Obsidian Vault",
+      "description": "/Users/semyonemakov/Documents/Obsidian Vault",
+      "actions": [
+        {
+          "label": "Open Folder",
+          "href": "file:///Users/semyonemakov/Documents/Obsidian%20Vault",
+          "variant": "secondary",
+          "target": "_self"
+        }
+      ]
+    }
+  ]
+}
